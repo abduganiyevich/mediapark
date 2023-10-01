@@ -895,10 +895,6 @@
   justify-content: space-between;
   align-items: center;
   display: none;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFF;
 }
 
 .footer .footer__responsiv .footer__responsiv--item {
@@ -926,18 +922,18 @@
   color: #d92e15;
 }
 
-.footer .footer__responsiv .footer__top {
+.footer .footer__top {
   padding-top: 64px;
   padding-bottom: 48px;
   display: flex;
   justify-content: space-between;
 }
 
-.footer .footer__responsiv .footer__top .footer__top--contact {
+.footer .footer__top .footer__top--contact {
   width: 320px;
 }
 
-.footer .footer__responsiv .footer__top .footer__top--contact h2 {
+.footer .footer__top .footer__top--contact h2 {
   font-size: 35px;
   color: white;
   text-transform: uppercase;
@@ -946,43 +942,43 @@
   margin-bottom: 20px;
 }
 
-.footer .footer__responsiv .footer__top .footer__top--contact p {
+.footer .footer__top .footer__top--contact p {
   font-weight: 500;
   font-size: 14px;
 }
 
-.footer .footer__responsiv .footer__top .footer__top--contact a {
+.footer .footer__top .footer__top--contact a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 700;
   color: #FFF;
 }
 
-.footer .footer__responsiv .footer__top .footer__top--contact span {
+.footer .footer__top .footer__top--contact span {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.footer .footer__responsiv .footer__top .footer__top--contact .working__time {
+.footer .footer__top .footer__top--contact .working__time {
   font-size: 16px;
   font-weight: 700;
 }
 
-.footer .footer__responsiv .footer__top .payment h4 {
+.footer .footer__top .payment h4 {
   font-size: 14px;
   color: #FFF;
   font-weight: 700;
 }
 
-.footer .footer__responsiv .footer__top .payment .payment__box--group {
+.footer .footer__top .payment .payment__box--group {
   width: 341px;
   gap: 12px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.footer .footer__responsiv .footer__top .payment .payment__box--group .payment__box {
+.footer .footer__top .payment .payment__box--group .payment__box {
   width: 144px;
   height: 53px;
   background-color: #222C3A;
@@ -992,32 +988,39 @@
   align-items: center;
 }
 
-.footer .footer__responsiv .footer__top .payment .payment__box--group .payment__box img {
+.footer .footer__top .payment .payment__box--group .payment__box img {
   padding: 5px 10px;
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav {
+.footer .footer__top .payment .payment__box--group .payment__box #click {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer .footer__top .footer__nav {
   display: flex;
   justify-content: space-between;
   gap: 32px;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .data {
+.footer .footer__top .footer__nav .data {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .data h3 {
+.footer .footer__top .footer__nav .data h3 {
   font-size: 14px;
   font-weight: 700;
   color: #FFF;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .data ul {
+.footer .footer__top .footer__nav .data ul {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -1025,7 +1028,7 @@
   list-style: none;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .data ul a {
+.footer .footer__top .footer__nav .data ul a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -1033,27 +1036,27 @@
   opacity: 0.5;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .services {
+.footer .footer__top .footer__nav .services {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .services h3 {
+.footer .footer__top .footer__nav .services h3 {
   font-size: 14px;
   font-weight: 700;
   color: #FFF;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .services ul {
+.footer .footer__top .footer__nav .services ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
   list-style: none;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .services ul a {
+.footer .footer__top .footer__nav .services ul a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -1061,27 +1064,27 @@
   opacity: 0.5;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .buyers {
+.footer .footer__top .footer__nav .buyers {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .buyers h3 {
+.footer .footer__top .footer__nav .buyers h3 {
   font-size: 14px;
   font-weight: 700;
   color: #FFF;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .buyers ul {
+.footer .footer__top .footer__nav .buyers ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
   list-style: none;
 }
 
-.footer .footer__responsiv .footer__top .footer__nav .buyers ul a {
+.footer .footer__top .footer__nav .buyers ul a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -1089,30 +1092,30 @@
   opacity: 0.5;
 }
 
-.footer .footer__responsiv .footer__bottom {
+.footer .footer__bottom {
   background-color: #222C3A;
   padding: 30px 0px;
 }
 
-.footer .footer__responsiv .footer__bottom .footer__bottom--container {
+.footer .footer__bottom .footer__bottom--container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer .footer__responsiv .footer__bottom .footer__bottom--container span {
+.footer .footer__bottom .footer__bottom--container span {
   color: #FFF;
   font-size: 16px;
   font-weight: 500;
 }
 
-.footer .footer__responsiv .footer__bottom .footer__bottom--container .social {
+.footer .footer__bottom .footer__bottom--container .social {
   display: flex;
   gap: 24px;
   align-items: center;
 }
 
-.footer .footer__responsiv .footer__bottom .footer__bottom--container .social i {
+.footer .footer__bottom .footer__bottom--container .social i {
   color: #FFF;
   font-size: 24px;
 }
