@@ -897,6 +897,8 @@
   display: none;
   position: fixed;
   bottom: 0;
+  margin-top: 15px;
+  background-color: #FFF;
   width: 100%;
 }
 
