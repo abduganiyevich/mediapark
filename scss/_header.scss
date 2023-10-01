@@ -149,7 +149,7 @@
 
 
             .header__middle--search{
-                width: 560px;
+             width: 100%;
                 border-radius: 12px;
                 border: 1px solid  #70707028;
                 
@@ -157,7 +157,7 @@
                 input{
                     border: none;
                     background-color: transparent;
-                    width:75%;
+                    width:85%;
                     padding: 15px 20px;
                     outline: none;
                 }
