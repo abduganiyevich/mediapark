@@ -136,9 +136,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: static;
-  z-index: 10;
-  top: 0;
   padding: 10px 0;
 }
 
@@ -1449,7 +1446,7 @@ template {
 
 .w-100 {
   width: 100% !important;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
 }
 
