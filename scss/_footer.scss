@@ -23,8 +23,20 @@
                 font-weight: 400;
                 color:#70777e;
             }
-        }
+
+         
+        
     }
+
+    .footer__responsiv--color{
+        i{
+            color:#d92e15;
+        }
+
+        p{
+            color: #d92e15;
+        }
+     }
    .footer__top{
     padding-top: 64px;
     padding-bottom: 48px;
@@ -215,4 +227,5 @@
         }
         }
    }
+}
 }
