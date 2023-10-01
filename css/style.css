@@ -1671,8 +1671,10 @@ template {
 }
 
 .w-100 {
+  max-width: 1450px;
   width: 100% !important;
   height: 200px;
+  margin: 0 auto;
   object-fit: cover;
 }
 

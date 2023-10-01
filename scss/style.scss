@@ -13,8 +13,10 @@
 @import './normalize';
 
 .w-100 {
-    width: 100%!important;
+    max-width: 1450px;
+    width: 100% !important;
     height: 200px;
+    margin: 0 auto;
     object-fit: cover;
 }
 
