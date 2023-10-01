@@ -38,6 +38,11 @@
                     font-size: 13px;
                     text-decoration: none;
                     font-weight: 500;
+                    transition: all 0.4s ease-out;
+
+                    &:hover{
+                        color: #0364ff;
+                    }
 
                     &::before{
                         content: '\f095';
@@ -71,6 +76,10 @@
                         color: #6e7272;
                         text-decoration: none;
                         font-weight: 500;
+                        
+                        &:hover{
+                            color: #0364ff;
+                        }
                     }
                 }
 
@@ -81,6 +90,11 @@
                     margin-left: 24px;
                     font-size: 13px;
                     outline: none;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: #0364ff;
+                    }
                     option{
                         border: none;
                         color: #6e7272;
@@ -179,9 +193,16 @@
                     flex-direction: column;
                     font-size: 18px;
                     color: #0B2B5E;
+                    cursor: pointer;
 
                     p{
+                      
                         font-size: 15px;
+                        font-weight: 500;
+
+                        &:hover{
+                            color: #0364ff;
+                        }
                     }
                 }
             }
@@ -220,7 +241,7 @@
                         transition: all 0.4s ease-out;
 
                         &:hover{
-                            color: #0B2B5E;
+                            color:#0364ff;
                         }
                     }
                 }

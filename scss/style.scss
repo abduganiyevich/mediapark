@@ -479,14 +479,16 @@ body{
            }
        }   
     
-       .xit__category{
+     .xit__container{
         h2{
             text-align: center;
         }
-        .xit__category--box:nth-child(2){
-            display: none;
-        }
-       }
+        .xit__category{
+            .xit__category--box:nth-child(2){
+                display: none;
+            }
+           }
+     }
     
       .buying__container{
         .buying__category{

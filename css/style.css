@@ -71,6 +71,11 @@
   font-size: 13px;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.4s ease-out;
+}
+
+.header .header__container .header__top .header__top--contact a:hover {
+  color: #0364ff;
 }
 
 .header .header__container .header__top .header__top--contact a::before {
@@ -102,12 +107,21 @@
   font-weight: 500;
 }
 
+.header .header__container .header__top .header__top--menu ul a:hover {
+  color: #0364ff;
+}
+
 .header .header__container .header__top .header__top--menu select {
   border: none;
   background-color: transparent;
   margin-left: 24px;
   font-size: 13px;
   outline: none;
+  cursor: pointer;
+}
+
+.header .header__container .header__top .header__top--menu select:hover {
+  color: #0364ff;
 }
 
 .header .header__container .header__top .header__top--menu select option {
@@ -201,10 +215,16 @@
   flex-direction: column;
   font-size: 18px;
   color: #0B2B5E;
+  cursor: pointer;
 }
 
 .header .header__container .header__middle .header__middle--menu .header__menu--box p {
   font-size: 15px;
+  font-weight: 500;
+}
+
+.header .header__container .header__middle .header__middle--menu .header__menu--box p:hover {
+  color: #0364ff;
 }
 
 .header .header__container .header__bottom .aksiya {
@@ -239,7 +259,7 @@
 }
 
 .header .header__container .header__bottom nav ul a:hover {
-  color: #0B2B5E;
+  color: #0364ff;
 }
 
 .favorite__container h2 {
@@ -1356,10 +1376,10 @@ body {
   .new .new__category .new__category--box:nth-child(2) {
     display: none;
   }
-  .xit__category h2 {
+  .xit__container h2 {
     text-align: center;
   }
-  .xit__category .xit__category--box:nth-child(2) {
+  .xit__container .xit__category .xit__category--box:nth-child(2) {
     display: none;
   }
   .buying__container .buying__category {
