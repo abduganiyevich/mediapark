@@ -180,7 +180,7 @@
 .header .header__container .header__middle .header__middle--search input {
   border: none;
   background-color: transparent;
-  width: 475px;
+  width: 75%;
   padding: 15px 20px;
   outline: none;
 }
@@ -1234,11 +1234,8 @@ body {
   .header .header__container .header__middle .header__middle--search {
     max-width: 100%;
   }
-  .header .header__container .header__middle .header__middle--search form {
-    max-width: 100%;
-  }
   .header .header__container .header__middle .header__middle--search form input {
-    max-width: 100%;
+    max-width: 75%;
   }
   .header .header__container .header__middle .header__middle--catalog {
     display: none;
