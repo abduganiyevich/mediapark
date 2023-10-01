@@ -999,6 +999,7 @@
   align-items: start;
   gap: 12px;
   list-style: none;
+  transition: all 0.4s ease-out;
 }
 
 .footer .footer__responsiv .footer__top .footer__nav .data ul a {
@@ -1007,6 +1008,10 @@
   font-weight: 500;
   color: #FFF;
   opacity: 0.5;
+}
+
+.footer .footer__responsiv .footer__top .footer__nav .data ul a:hover {
+  color: #0364ff;
 }
 
 .footer .footer__responsiv .footer__top .footer__nav .services {
@@ -1035,6 +1040,11 @@
   font-weight: 500;
   color: #FFF;
   opacity: 0.5;
+  transition: all0 0.4s ease-out;
+}
+
+.footer .footer__responsiv .footer__top .footer__nav .services ul a:hover {
+  color: #0364ff;
 }
 
 .footer .footer__responsiv .footer__top .footer__nav .buyers {
@@ -1063,6 +1073,11 @@
   font-weight: 500;
   color: #FFF;
   opacity: 0.5;
+  transition: all 0.4s ease-out;
+}
+
+.footer .footer__responsiv .footer__top .footer__nav .buyers ul a:hover {
+  color: #0364ff;
 }
 
 .footer .footer__responsiv .footer__bottom {

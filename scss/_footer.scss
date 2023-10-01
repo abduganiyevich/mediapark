@@ -105,6 +105,7 @@
             align-items:start;
             gap: 12px;
             list-style: none;
+            transition: all 0.4s ease-out;
 
             a{
                 text-decoration: none;
@@ -112,6 +113,10 @@
                 font-weight: 500;
                 color: #FFF;
                 opacity: 0.5;
+
+                &:hover{
+                    color: #0364ff;
+                }
             }
         }
     }
@@ -140,6 +145,11 @@
                 font-weight: 500;
                 color: #FFF;
                 opacity: 0.5;
+                transition: all0.4s ease-out;
+
+                &:hover{
+                    color: #0364ff;
+                }
             }
         }
     }
@@ -168,8 +178,11 @@
                 font-weight: 500;
                 color: #FFF;
                 opacity: 0.5;
+                transition: all 0.4s ease-out;
 
-               
+                &:hover{
+                    color: #0364ff;
+                }
             }
         }
     }
