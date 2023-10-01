@@ -256,6 +256,10 @@ body{
 
     .footer{
         background-color: #fff;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
         .footer__top{
             display: none;
         }
