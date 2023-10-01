@@ -1447,6 +1447,12 @@ template {
   display: none;
 }
 
+.w-100 {
+  width: 100% !important;
+  height: 150px;
+  object-fit: cover;
+}
+
 * {
   margin: 0;
   padding: 0;
