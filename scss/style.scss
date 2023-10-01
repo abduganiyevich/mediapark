@@ -1,0 +1,560 @@
+@import './fonts';
+@import './header';
+@import './favorite';
+@import './new';
+@import './xit';
+@import './buying';
+@import './notebooks';
+@import './relax';
+@import './brands';
+@import './choose';
+@import './your__store';
+@import './footer';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gilroy';
+}
+.container{
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    // border: 1px solid black;
+}
+
+@media  screen and (max-width:1450px) {
+    .container{
+        max-width: 90%;
+    }
+
+   .header__container{
+        .header__middle--search{
+       max-width: 400px;
+        input{
+            max-width: 300px;
+           
+        }
+     }
+
+    .header__bottom{
+        nav{
+            ul{
+                li:nth-child(13){
+                    display: none;
+                }
+
+                li:nth-child(12){
+                    display: none;
+                }
+
+                li:nth-child(11){
+                    display: none;
+                }
+            }
+        }
+    }
+   }
+
+   .new__category{
+    .new__category--box:last-child{
+        display: none;
+    }
+   }
+
+   .xit__category{
+    .xit__category--box:last-child{
+        display: none;
+    }
+   }
+
+   .buying__category{
+    .buying__category--box:last-child{
+        display: none;
+    }
+   }
+
+   .notebooks__category{
+    .notebooks__category--box:last-child{
+        display: none;
+    }
+   }
+
+   .relax__category{
+    .relax__category--box:last-child{
+        display: none;
+    }
+   }
+
+   .choose__category{
+    .choose__category--box:last-child{
+        display: none;
+    }
+   }
+
+   .brands__category{
+    .brands__category--box:last-child{
+        display: none;
+    }
+   }
+   .favorite__category{
+    .favorite__box:last-child{
+        display: none;
+    }
+   }
+}
+
+@media screen and (max-width:1280px) {
+    .header__container{
+        .header__top--menu{
+            ul{
+                font-size: 12px;
+                gap: 15px;
+            }
+        }
+
+        .header__middle--search{
+            max-width: 266px;
+             input{
+                 max-width: 164px;
+                
+             }
+          }
+
+        .header__bottom{
+            nav{
+              ul{
+                li:nth-child(10){
+                    display: none;
+                }
+
+                li:nth-child(9){
+                    display: none;
+                }
+              }
+            }
+        }
+    }
+
+    .new__category{
+        .new__category--box:nth-child(5){
+            display: none;
+        }
+       }
+    
+       .xit__category{
+        .xit__category--box:nth-child(5){
+            display: none;
+        }
+       }
+    
+       .buying__category{
+        .buying__category--box:nth-child(5){
+            display: none;
+        }
+       }
+    
+       .notebooks__category{
+        .notebooks__category--box:nth-child(5){
+            display: none;
+        }
+       }
+    
+       .relax__category{
+        .relax__category--box:nth-child(5){
+            display: none;
+        }
+       }
+    
+       .choose__category{
+        .choose__category--box:nth-child(5){
+            display: none;
+        }
+       }
+    
+       .brands__category{
+        .brands__category--box:nth-child(5){
+            display: none;
+        }
+       }
+       .favorite__category{
+        .favorite__box:nth-child(5){
+            display: none;
+        }
+       }
+
+       .your__store{
+        .your__store--container{
+            .your__store--info{
+                h2{
+                    font-size: 18px;
+                }
+
+                p{
+                    font-size: 14px;
+                }
+            }
+
+            .your__store--img{
+                img{
+                    width: 420px;
+
+                }
+            }
+        }
+       }
+
+    }
+
+  @media screen and (max-width:1164px) {
+    .header{
+        .header__container{
+            .header__top{
+                display: none;
+            }
+    
+            .header__responsiv{
+                display: flex;
+               
+            }
+
+            .header__middle{
+                .header__middle--logo{
+                    display: none;
+                }
+
+                .header__middle--search{
+                    max-width: 100%;
+                    form{
+                        max-width: 100%;
+                        input{
+                            max-width: 100%;
+                         }
+                    }
+                }
+
+                .header__middle--catalog{
+                    display: none;
+                }
+
+                .header__middle--menu{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .footer{
+        background-color: #fff;
+        .footer__top{
+            display: none;
+        }
+
+        .footer__bottom{
+            display: none;
+        }
+
+        .footer__responsiv{
+            display: flex;
+            padding: 20px;
+        }
+    }
+
+  }  
+
+  @media screen and (max-width:1005px) {
+    .header__container{
+        .header__bottom{
+            nav{
+              ul{
+                li:nth-child(9){
+                    display: none;
+                }
+
+                li:nth-child(8){
+                    display: none;
+                }
+              }
+            }
+        }
+    }
+
+    .new__category{
+        .new__category--box:nth-child(4){
+            display: none;
+        }
+       }
+    
+       .xit__category{
+        .xit__category--box:nth-child(4){
+            display: none;
+        }
+       }
+    
+       .buying__category{
+        .buying__category--box:nth-child(4){
+            display: none;
+        }
+       }
+    
+       .notebooks__category{
+        .notebooks__category--box:nth-child(4){
+            display: none;
+        }
+       }
+    
+       .relax__category{
+        .relax__category--box:nth-child(4){
+            display: none;
+        }
+       }
+    
+       .choose__category{
+        .choose__category--box:nth-child(4){
+            display: none;
+        }
+       }
+    
+       .brands__category{
+        .brands__category--box:nth-child(4){
+            display: none;
+        }
+       }
+       .favorite__category{
+        .favorite__box:nth-child(4){
+            display: none;
+        }
+       }
+
+       .your__store{
+        .your__store--container{
+            .your__store--info{
+                .your__store--market{
+                    img{
+                        width: 120px;
+                    }
+                    gap:10px;
+                }
+            }
+
+            .your__store--img{
+                img{
+                    width: 350px;
+                }
+            }
+        }
+       }
+  }
+
+  @media screen and (max-width:768px) {
+    .your__store{
+        .your__store--container{
+            .your__store--info{
+                h2{
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 11px;
+                }
+                .your__store--market{
+                    width: 100px;
+                    gap: 10px;
+                }
+            }
+
+            .your__store--img{
+                img{
+                    width: 300px;
+                }
+               
+            }
+        }
+    }    
+  }
+
+  @media screen and (max-width:759px) {
+    .header__container{
+        .header__bottom{
+            nav{
+              ul{
+                li:nth-child(7){
+                    display: none;
+                }
+
+                li:nth-child(6){
+                    display: none;
+                }
+              }
+            }
+        }
+    }
+    .your__store{
+        display: none;
+    }
+
+
+    .new__category{
+        .new__category--box:nth-child(3){
+            display: none;
+        }
+       }
+    
+       .xit__category{
+        .xit__category--box:nth-child(3){
+            display: none;
+        }
+       }
+    
+       .buying__category{
+        .buying__category--box:nth-child(3){
+            display: none;
+        }
+       }
+
+       .buying__menu{
+        display: none;
+    }
+    
+       .notebooks__category{
+        .notebooks__category--box:nth-child(3){
+            display: none;
+        }
+       }
+    
+       .relax__category{
+        .relax__category--box:nth-child(3){
+            display: none;
+        }
+       }
+    
+       .choose__category{
+        .choose__category--box:nth-child(3){
+            display: none;
+        }
+       }
+    
+       .brands__category{
+        .brands__category--box:nth-child(3){
+            display: none;
+        }
+       }
+       .favorite__category{
+        .favorite__box:nth-child(3){
+            display: none;
+        }
+       }
+  }
+
+  @media screen and (max-width:571px) {
+
+    .header__container{
+        .header__bottom{
+            nav{
+              ul{
+                li:nth-child(5){
+                    display: none;
+                }
+
+                li:nth-child(4){
+                    display: none;
+                }
+              }
+            }
+        }
+    }
+       .new{
+        h2{
+            text-align: center;
+        }
+        .new__category{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .new__category--box:nth-child(2){
+                display: none;
+            }
+           }
+       }   
+    
+       .xit__category{
+        h2{
+            text-align: center;
+        }
+        .xit__category--box:nth-child(2){
+            display: none;
+        }
+       }
+    
+      .buying__container{
+        .buying__category{
+            display: flex;
+            justify-content:center;
+            .buying__category--box:nth-child(2){
+                display: none;
+            }
+           }
+      }
+    
+      .notebooks__container{
+        text-align: center;
+        .notebooks__category{
+            display: flex;
+            justify-content: center;
+            .notebooks__category--box:nth-child(2){
+                display: none;
+            }
+           }
+      }
+    
+      .relax__container{
+        h2{
+            text-align: center;
+        }
+        .relax__category{
+            display: flex;
+            justify-content: center;
+            .relax__category--box:nth-child(2){
+                display: none;
+            }
+           }
+      }
+    
+       .choose__container{
+        h2{
+            text-align: center;
+        }
+        .choose__category{
+            display: flex;
+            justify-content: center;
+            .choose__category--box:nth-child(2){
+                display: none;
+            }
+           }
+       }
+    
+      .brands__container{
+        h2{
+            text-align: center;
+        }
+        .brands__category{
+            display: flex;
+            justify-content: center;
+            .brands__category--box:nth-child(2){
+                display: none;
+            }
+           }
+      }
+       .favorite__category{
+        .favorite__box:nth-child(2){
+            display: none;
+        }
+       }
+  }
+
+
+
+
+

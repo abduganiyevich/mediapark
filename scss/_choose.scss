@@ -1,0 +1,48 @@
+.choose__container{
+
+    h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .choose__category{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        .choose__category--box{
+            border: 1px solid #b6acac5d;
+            width: 220px;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 50px;
+            .choose__box--icon{
+                width: 48px;
+                background-color: #FDF5F3;
+                padding: 15px 25px;
+                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                img{
+                    width: 35px;
+                    
+                }
+            }
+    
+            .choose__box--info{
+    
+                h3{
+                font-size: 18px;
+                font-weight: 700;
+                }
+                p{
+                   color: #6C7178;
+                   font-weight: 400;
+                   margin-bottom: 20px;
+                }
+            } 
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.brands__container{
+    h2{
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .brands__category{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        .brands__category--box{
+            width: 217px;
+            border: 1px solid #b6acac5d;
+            padding:20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+    }
+}

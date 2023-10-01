@@ -1,0 +1,42 @@
+.your__store{
+    background-color: #F8F8F9;
+    .your__store--container{
+        display: flex;
+        position: relative;
+
+        .your__store--info{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            padding: 60px 0px;
+            h2{
+                font-size: 32px;
+                color: #222C3A;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            p{
+                width: 368px;
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            .your__store--market{
+                display: flex;
+                align-items: center;
+                gap: 16px;
+            }
+
+        }
+
+        .your__store--img{
+            position:absolute;
+            top: -50px;
+            right: 0;
+        }
+
+    }
+}

@@ -1,0 +1,123 @@
+.buying__container{
+    h2{
+        margin-top:50px;
+        margin-bottom: 20px;
+    }
+
+    .buying__menu{
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 16px;
+
+            .barchasi{
+                a{
+                    background-color: #1D242F;
+                    color: #FFF;
+                    text-decoration: none;
+                    padding: 8px 15px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    border-radius: 15px;
+                }
+              
+            }
+
+            a{
+                text-decoration: none;
+                background-color: #F7F8F8;
+                padding: 8px 15px;
+                font-size: 14px;
+                color: #6e6e6e;
+                font-weight: 400;
+                border-radius: 15px;
+
+                &:hover{
+                    background-color: #1D242F;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+
+    .buying__category{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .buying__category--box{
+        padding: 0px 15px;
+        width: 226px;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        border-radius: 12px;
+       &:hover{
+        border: 0.5px solid #eae5e5;
+       }
+
+        img{
+            width: 189px;
+            object-fit: cover;
+        }
+
+        b{
+            font-size: 20px;
+            color: #1D242F;
+        }
+        span{
+            padding: 4px 12px;
+            // width: 159px;
+            border: 1px solid #0B2B5E;
+            border-radius:12px;
+        }
+
+        .buying__category--star{
+            display: flex;
+            gap: 4px;
+            // align-items: center;
+
+            i{
+                color: rgb(225, 159, 37);
+            }
+            p{
+                font-size: 15.25px;
+            }
+        }
+
+        .buying__category--button{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            button:first-child{
+                width: 70px;
+                height: 49px;
+                padding:10px 14px;
+                border: none;
+                border-radius: 12px;
+                background-color: #D92E15;
+                color: #FFF;
+
+                &:hover{
+                    background-color: #780808f3;
+                    color: #FFF;
+                }
+            }
+
+            button{
+                color: #6e6e6e;
+                width: 49.6px;
+                height: 49.6px;
+                padding: 14px;
+                border: none;
+                border-radius: 12px;
+
+                &:hover{
+                    background-color: #F7F8F8;
+                    color: #6e6e6e;
+                }
+            }
+        }
+    }
+}
